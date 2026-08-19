@@ -1,5 +1,5 @@
 
-vim.opt.timeoutlen = 100
+vim.opt.timeoutlen = 150
 vim.g.mapleader = " "
 
 require("config.options")
