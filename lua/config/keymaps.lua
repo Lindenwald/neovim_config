@@ -11,7 +11,7 @@ vim.keymap.set("n", "<leader>s", "<cmd>write<CR>")
 -- Runing code in a new terminal buffer
 --
 -- -- [space + r] runs code in a new terminal buffer
-vim.keymap.set("n", "<leader>r", ":sp<CR>:term python3 %<CR>")
+vim.keymap.set("n", "<leader>r", ":vnew<CR>:term python3 %<CR>")
 -- -- [space + n] closes the closes the buffer and terminates the window
 vim.keymap.set("n", "<leader>w", "<cmd>bd!<CR>")
 vim.keymap.set("t", "<leader>w", "<C-\\><C-n><cmd>bd!<CR>")
